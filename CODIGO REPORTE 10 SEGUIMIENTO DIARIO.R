@@ -11,7 +11,7 @@ library(tidyverse)
 library(blastula)
 library(janitor)
 
-##conflicts_prefer(dplyr::filter) XD
+##conflicts_prefer(dplyr::filter)
 
 ruta <- "//coomeva.nal/DFSCoomeva/Cartera_Coomeva/CARTERA/13. Archivos de gestión/Reporte 10 nuevo"
 archivos_con_fechas <- file.info(list.files(path = ruta, full.names = TRUE))
