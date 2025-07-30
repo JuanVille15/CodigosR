@@ -198,7 +198,7 @@ R_10 <- R_10 %>%
 ## Transformaciones a la base de gestiones ## 
 
 ##Cargamos base de Gestiones ## 
-Base_gestiones <- read_excel("//coomeva.nal/DFSCoomeva/Cartera_Coomeva/CARTERA/1. Estatutaria/Temporal/Gestiones Provisionales/Gestiones_Mensuales.xlsx", col_types = "text")
+Base_gestiones <- read_csv("//coomeva.nal/DFSCoomeva/Cartera_Coomeva/CARTERA/1. Estatutaria/Temporal/Gestiones Provisionales/Gestiones_Mensuales.csv")
 
 Base_gestiones <- Base_gestiones %>%
 distinct()
